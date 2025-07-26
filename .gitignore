@@ -1,0 +1,13 @@
+*.class
+*.jar
+*.war
+*.ear
+.idea/
+*.iml
+*.iws
+out/
+gen/
+.vscode/
+bin/
+*.code-workspace
+.DS-store
