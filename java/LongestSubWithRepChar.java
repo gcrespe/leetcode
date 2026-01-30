@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashSet;
+import java.util.Set;
+
+class LongestSubWithRepChar {
     public int lengthOfLongestSubstring(String s) {
         char[] charArray = s.toCharArray();
 

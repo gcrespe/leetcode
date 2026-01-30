@@ -1,4 +1,4 @@
-class Solution {
+class MaxScoreRemoveSubstring {
     public int maximumGain(String s, int x, int y) {
         if (x < y) {
             return removeSubstring(s, 'b', 'a', y) + removeSubstring(remaining, 'a', 'b', x);

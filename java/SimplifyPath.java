@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SimplifyPath {
     public String simplifyPath(String path) {
         String[] components = path.split("/");
         List<String> finalPath = new ArrayList<>();

@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+class MaxSum {
        public int maxSum(int[] nums) {
         Map<Integer, Integer> count = new HashMap<>();
         for (int num : nums) {

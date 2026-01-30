@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashSet;
+import java.util.Set;
+
+class MaxErasureValue {
     public int maximumUniqueSubarray(int[] nums) {
         int left = 0;
         int maxSum = 0;

@@ -1,14 +1,9 @@
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+import utils.TreeNode;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
-class Solution {
+class ReverseLinkedList2 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> rs = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();

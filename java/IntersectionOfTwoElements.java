@@ -1,6 +1,8 @@
-class Solution {
+import java.util.*;
+
+class IntersectionOfTwoElements {
     public List<Integer> intersection(int[][] nums) {
-Map<Integer, Integer> count = new HashMap<>();
+    Map<Integer, Integer> count = new HashMap<>();
         List<Integer> result = new ArrayList<>();
         int totalArrays = nums.length;
         
