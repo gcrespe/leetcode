@@ -10,5 +10,4 @@ gen/
 .vscode/
 bin/
 *.code-workspace
-.DS-storedassdadsasdadsa
-adssdasda
+.DS-store
